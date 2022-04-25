@@ -1,0 +1,66 @@
+form {
+  max-width: 495px;
+  width: 100%;
+  margin:0 auto;
+}
+
+label {
+  font-size: 0.9375rem;
+  line-height: 1.1875rem;
+  display: block;
+  text-align: left;
+  margin-bottom: 0.625rem;
+  margin-top: 1.875rem;
+}
+
+input, textarea {
+  max-width: 495px;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #DEDEDE;
+  border-radius: 4px;
+  padding: 8px 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+}
+
+input {
+  min-height: 50px;
+}
+
+textarea {
+  min-height: 125px;
+  max-height: 180px;
+  min-width: 280px;
+}
+
+input:focus-visible,
+textarea:focus-visible {
+  outline: 0;
+  border-color: #53C5B1;
+}
+
+submit {
+  margin-top: 2.5rem;
+}
+
+input[type=submit], .wpcf7 input[type=submit] {
+  color: #fff;
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
+input[type=submit]:hover, .wpcf7 input[type=submit]:hover {
+  color: #fff;
+  background-color: $primary-color-hover;
+  border-color: $primary-color-hover;
+}
+
+.form-wrapper {
+  background-color: #fff;
+  padding: 1.5625rem;
+  box-shadow: 0 0 0.9375rem rgba(0, 0, 0, .1);
+  @include media-breakpoint-up(lg){
+    padding: 3.4375rem;
+  }
+}

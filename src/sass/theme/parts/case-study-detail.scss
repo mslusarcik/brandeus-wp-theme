@@ -1,0 +1,68 @@
+.case-study-detail {
+  .website-image {
+    margin-top: 4rem;
+    > img {
+      box-shadow: 0 0 15px rgba(0, 0, 0, .10);
+      margin: 0 auto;
+    }
+  }
+  .case-study-box {
+    display: block;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    padding: 2.5rem 2.375rem;
+    height: 100%;
+
+    &.promo {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 4rem 2.375rem;
+      @include media-breakpoint-up(lg){
+        padding: 2.5rem 2.375rem;
+      }
+
+      >span {
+        display: block;
+        color: $primary-color;
+        font-weight: 400;
+      
+        &.percentage {
+          font-size: 4rem;
+          line-height: 4.650rem;
+          @include media-breakpoint-up(lg){
+            font-size: 5.3125rem;
+            line-height: 5.3125rem;
+          }
+        }
+        &.suffix {
+          font-size: 1.25rem;
+          text-transform: uppercase;
+          margin-top: 0.75rem;
+        }
+      }
+    }
+
+    >h2 {
+      font-size: 1.5rem;
+      line-height: 2rem;
+      color: #252525;
+      margin-bottom: 1.5625rem;
+      @include media-breakpoint-up(lg){
+        font-size: 1.875rem;
+        line-height: 2.3125rem;
+      }
+    }
+    >h2+p {
+      font-size: 1.125rem;
+      line-height: 1.650rem;
+      color: #888888;
+      @include media-breakpoint-up(lg){
+        font-size: 1.25rem;
+        line-height: 2rem;
+      }
+    }
+  }
+}

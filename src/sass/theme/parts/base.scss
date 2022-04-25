@@ -1,0 +1,74 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-size: 14px;
+  background-color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+  line-height: 2.75rem;
+  @include media-breakpoint-up(lg){
+    font-size: 3rem;
+    line-height: 3.75rem;
+  }
+}
+
+p.highlighted-green + h2 {
+  margin-top: 0.5rem;
+}
+
+h2 {
+  font-size: 1.75rem;
+  line-height: 2.25rem;
+  @include media-breakpoint-up(lg){
+    font-size: 2rem;
+    line-height: 2.55rem;
+  }
+}
+
+h3 {
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.125rem;
+}
+
+a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+i {
+  font-style: normal;
+  transition: all 0.15s linear;
+}
+
+.fa-brands {
+  font-family:"Font Awesome 5 Brands";
+}
+
+.fa-solid {
+  font-family:"Font Awesome 5 Free";
+  font-weight: 900;
+}
+
+@media (min-width: 768px) {
+  html, body {
+    font-size: 16px;
+  }
+}
+
+.wrapper {
+  padding: 0 !important;
+}

@@ -1,0 +1,31 @@
+/* CHANGE BS CONTAINER! */
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+    position: relative;
+  }
+}
+
+#wrapper-footer {
+  padding: 40px 0 !important;
+  background-color: #F8FAFC;
+}
+
+/* FONT STYLING */
+@import 'parts/vars.scss';
+@import 'parts/base.scss';
+@import 'parts/header.scss';
+@import 'parts/anims.scss';
+@import 'parts/fonts.scss';
+@import 'parts/icons.scss';
+@import 'parts/spacings.scss';
+@import 'parts/layout.scss';
+@import 'parts/helpers.scss';
+@import 'parts/higlights.scss';
+@import 'parts/btns.scss';
+@import 'parts/hero-section.scss';
+@import 'parts/sections.scss';
+@import 'parts/case-study-detail.scss';
+@import 'parts/modals.scss';
+@import 'parts/forms.scss';

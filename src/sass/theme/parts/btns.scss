@@ -1,0 +1,37 @@
+a.btn {
+  display: inline-block;
+  padding: 1rem 3.25rem;
+  border-radius: 4px;
+  font-size: 1.125rem;
+  line-height: 1.25rem;
+  transition: background-color 0.125s linear;
+  cursor: pointer;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: $primary-color;
+  border-color: $primary-color;
+}
+
+.btn-primary:hover {
+  background-color: $primary-color-hover;
+  border-color: $primary-color-hover;
+  color: #fff;
+}
+
+.btn-outline {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+.btn-outline:hover {
+  background-color: #fff;
+  border: 1px solid #fff;
+  color: #252525;
+}
+
+a.btn {
+  text-decoration: none;
+}

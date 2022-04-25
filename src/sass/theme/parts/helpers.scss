@@ -1,0 +1,21 @@
+.h-100 {
+  height: 100%;
+}
+
+.bg-none {
+  background: none !important;
+}
+
+.bg-grey {
+  background-color: rgba(182, 200, 227, .1);
+}
+
+.bg-grey-half::before {
+  content: '';
+  background-color: rgba(182, 200, 227, .1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 60%;
+  width: 100%;
+}
