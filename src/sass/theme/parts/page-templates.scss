@@ -1,0 +1,17 @@
+.page-template-default #page-wrapper {
+  padding: 2rem 0 !important;
+}
+
+.page-template-default h1 {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 993px) {
+  .page-template-default #page-wrapper {
+    padding: 3.5rem 0 !important;
+  }
+  .page-template-default h1 {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+  }
+}

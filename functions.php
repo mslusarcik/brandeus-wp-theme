@@ -150,3 +150,8 @@ function hide_editor() {
 }
 
 add_action('admin_init', 'hide_editor');
+
+// SET MAX UPLOAD SIZES
+@ini_set( 'upload_max_size' , '512M' );
+@ini_set( 'post_max_size', '512M');
+@ini_set( 'max_execution_time', '300' );

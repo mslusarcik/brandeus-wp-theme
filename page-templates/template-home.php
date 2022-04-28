@@ -156,6 +156,7 @@ if ( is_front_page() ) {
       </div>
     </div>
   </section>
+
   <section class="brands bg-grey">
     <div class="container">
       <div class="row">
@@ -169,12 +170,29 @@ if ( is_front_page() ) {
           <?php the_field('hp_brands_heading'); ?> <span class="text-higlighted"><?php the_field('hp_brands_higlighted'); ?></span>
           </h2>
           <ul class="brands-list">
-            <li><img src="<?php the_field('hp_brands_first'); ?>" /></li>
-            <li><img src="<?php the_field('hp_brands_second'); ?>" /></li>
-            <li><img src="<?php the_field('hp_brands_third'); ?>" /></li>
-            <li><img src="<?php the_field('hp_brands_fourth'); ?>" /></li>
-            <li><img src="<?php the_field('hp_brands_fifth'); ?>" /></li>
-            <li><img src="<?php the_field('hp_brands_sixth'); ?>" /></li>
+            <?php if ( get_field( 'hp_brands_first' ) ): ?>
+              <li><img src="<?php the_field('hp_brands_first'); ?>" /></li>
+            <?php endif; ?>
+
+            <?php if ( get_field( 'hp_brands_second' ) ): ?>
+              <li><img src="<?php the_field('hp_brands_second'); ?>" /></li>
+            <?php endif; ?>
+
+            <?php if ( get_field( 'hp_brands_third' ) ): ?>
+              <li><img src="<?php the_field('hp_brands_third'); ?>" /></li>
+            <?php endif; ?>
+
+            <?php if ( get_field( 'hp_brands_fourth' ) ): ?>
+              <li><img src="<?php the_field('hp_brands_fourth'); ?>" /></li>
+            <?php endif; ?>
+
+            <?php if ( get_field( 'hp_brands_fifth' ) ): ?>
+              <li><img src="<?php the_field('hp_brands_fifth'); ?>" /></li>
+            <?php endif; ?>
+
+            <?php if ( get_field( 'hp_brands_sixth' ) ): ?>
+              <li><img src="<?php the_field('hp_brands_sixth'); ?>" /></li>
+            <?php endif; ?>
           </ul>
         </div>
       </div>

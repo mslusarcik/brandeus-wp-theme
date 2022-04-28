@@ -18,4 +18,10 @@
   left: 0;
   height: 60%;
   width: 100%;
+  z-index: 0;
+
+  > .container {
+    z-index: 1;
+    position: relative;
+  }
 }

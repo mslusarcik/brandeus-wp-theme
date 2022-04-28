@@ -16669,6 +16669,11 @@ section.padding-lg {
   left: 0;
   height: 60%;
   width: 100%;
+  z-index: 0;
+}
+.bg-grey-half::before > .container {
+  z-index: 1;
+  position: relative;
 }
 
 .highlighted-green > span {
@@ -17080,8 +17085,8 @@ section.contact-info .contact-additional-info img {
 }
 @media (min-width: 992px) {
   .case-study-detail .case-study-box > h2, .case-study-detail .case-study-box > .h2 {
-    font-size: 1.875rem;
-    line-height: 2.3125rem;
+    font-size: 1.675rem;
+    line-height: 2rem;
   }
 }
 .case-study-detail .case-study-box > h2 + p, .case-study-detail .case-study-box > .h2 + p {
@@ -17091,8 +17096,8 @@ section.contact-info .contact-additional-info img {
 }
 @media (min-width: 992px) {
   .case-study-detail .case-study-box > h2 + p, .case-study-detail .case-study-box > .h2 + p {
-    font-size: 1.25rem;
-    line-height: 2rem;
+    font-size: 1.15rem;
+    line-height: 1.65rem;
   }
 }
 
@@ -17175,7 +17180,7 @@ section.contact-info .contact-additional-info img {
 }
 
 .modal-close {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='61'%3E%3Ctext data-name='\eee4' transform='translate(28 49)' fill='%23e8e8e8' font-size='55' font-family='icofont, IcoFont'%3E%3Ctspan x='-27.5' y='0'%3E\eee4%3C/tspan%3E%3C/text%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23e8e8e8' d='M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z'/%3E%3C/svg%3E");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -17192,7 +17197,7 @@ section.contact-info .contact-additional-info img {
 }
 
 .modal-close:hover {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='61' viewBox='0 0 56 61'%3E%3Ctext id='_' data-name='\eee4' transform='translate(28 49)' fill='%23666' font-size='55' font-family='icofont, IcoFont'%3E%3Ctspan x='-27.5' y='0'%3E\eee4%3C/tspan%3E%3C/text%3E%3C/svg%3E%0A");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23FFF' d='M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z'/%3E%3C/svg%3E");
 }
 
 .modal-heading {
@@ -17228,7 +17233,7 @@ section.contact-info .contact-additional-info img {
   top: 0;
 }
 .modal.theme-v2 .modal-header .modal-close:hover {
-  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='61'%3E%3Ctext data-name='\eee4' transform='translate(28 49)' fill='%23fff' font-size='55' font-family='icofont, IcoFont'%3E%3Ctspan x='-27.5' y='0'%3E\eee4%3C/tspan%3E%3C/text%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512'%3E%3Cpath fill='%23FFF' d='M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z'/%3E%3C/svg%3E");
 }
 
 .modal.is-visible {
@@ -17304,6 +17309,24 @@ input[type=submit]:hover, .wpcf7 input[type=submit]:hover {
   }
 }
 
+.page-template-default #page-wrapper {
+  padding: 2rem 0 !important;
+}
+
+.page-template-default h1, .page-template-default .h1 {
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 993px) {
+  .page-template-default #page-wrapper {
+    padding: 3.5rem 0 !important;
+  }
+
+  .page-template-default h1, .page-template-default .h1 {
+    font-size: 2.25rem;
+    line-height: 2.75rem;
+  }
+}
 .has-blue-color,
 .has-blue-color:visited {
   color: #0d6efd;

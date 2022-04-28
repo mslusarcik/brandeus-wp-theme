@@ -41,6 +41,12 @@ if ( is_front_page() ) {
       </div>
       <div class="row">
         <div class="col-12 col-lg-6 mt-4">
+          <div class="case-study-box promo">
+            <span class="percentage"><?php the_field('fourth_box_heading'); ?></span>
+            <span class="suffix"><?php the_field('fourth_box_content'); ?></span>
+          </div>
+        </div>
+        <div class="col-12 col-lg-6 mt-4">
           <div class="case-study-box">
             <h2>
               <?php the_field('first_box_heading'); ?>
@@ -68,12 +74,6 @@ if ( is_front_page() ) {
             <p>
               <?php the_field('third_box_content'); ?>
             </p>
-          </div>
-        </div>
-        <div class="col-12 col-lg-6 mt-4">
-          <div class="case-study-box promo">
-            <span class="percentage"><?php the_field('fourth_box_heading'); ?></span>
-            <span class="suffix"><?php the_field('fourth_box_content'); ?></span>
           </div>
         </div>
       </div>

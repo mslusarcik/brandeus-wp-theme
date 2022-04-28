@@ -51,17 +51,17 @@
       color: #252525;
       margin-bottom: 1.5625rem;
       @include media-breakpoint-up(lg){
-        font-size: 1.875rem;
-        line-height: 2.3125rem;
+        font-size: 1.675rem;
+        line-height: 2rem;
       }
     }
     >h2+p {
       font-size: 1.125rem;
-      line-height: 1.650rem;
+      line-height: 1.65rem;
       color: #888888;
       @include media-breakpoint-up(lg){
-        font-size: 1.25rem;
-        line-height: 2rem;
+        font-size: 1.15rem;
+        line-height: 1.65rem;
       }
     }
   }
